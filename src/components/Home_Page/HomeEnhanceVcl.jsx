@@ -14,7 +14,7 @@ const HomeEnhanceVcl = () => {
                             integrated safety solutions which will provide superior driving experience.</p>
                     </div>
                     <div className="commArrBtn col-100 floatLft clr relative">
-                        <Link to="/about" className="d-flex algnItmCent">
+                        <Link to="/contact" className="d-flex algnItmCent">
                             <span>Contact Us </span>
                             <span>
                                 <svg width="21" height="17" viewBox="0 0 21 17" fill="none"

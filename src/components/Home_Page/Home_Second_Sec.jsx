@@ -16,7 +16,7 @@ const Home_Second_Sec = () => {
             <p>{description}</p>
           </div>
           <div className="hmSecndSecContBtn commArrBtn red col-100 floatLft clr relative">
-            <a href={btnLink} className="d-flex algnItmCent justContCent">
+            <a href="/about" className="d-flex algnItmCent justContCent">
               <span>{btnLabel}</span>
               <span>
                 <svg
