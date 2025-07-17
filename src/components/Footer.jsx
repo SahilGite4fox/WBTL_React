@@ -33,8 +33,8 @@ const Footer = () => {
                                 <li><Link to="/about">About Us</Link></li>
                                 <li><Link to="/board">Management</Link></li>
                                 <li><Link to="/product">Our Product</Link></li>
-                                <li><Link to="/product">Our Solutions</Link></li>
-                                <li><Link to="/board">Life at WBTL</Link></li>
+                                <li><Link to="/solutions">Our Solutions</Link></li>
+                                <li><Link to="/life_at_wbtl">Life at WBTL</Link></li>
                                 <li><Link to="/contact">Contact</Link></li>
                             </ul>
                         </div>
