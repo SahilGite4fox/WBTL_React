@@ -1,0 +1,344 @@
+@media (hover: hover) {
+  .btnBox:hover .carPartBox{opacity:1;visibility:visible;}
+  .btnBox:hover .partBullet{box-shadow:inset 0px 7px 11px #68F3F8,inset 0px -82px 68px #2B8C5B,inset 0px 98px 100px rgba(0,198,253,0.3),inset 0px 4px 18px rgba(93,179,227,0.7),inset 0px 1px 40px #97D9FF;}
+
+}
+
+
+
+/* For desktop: rotate on hover only */
+@media (min-width: 1101px) {
+  .headNav > nav > ul > li:hover::after{transform:rotate(180deg);}
+
+}
+
+@media only screen and (max-width:1800px){
+    .slick-slider button.slick-prev{right: 95%;}
+    .slick-slider button.slick-next{left: 95%;}
+}
+@media only screen and (max-width:1700px){
+    .main-wrapper,.wrapper1500,.wrapper1440,.wrapper1300,.wrapper1200,.wrapper1080{padding-inline: 15px;}
+    .headBot{padding-left:15px;background:rgba(255,255,255,0.7);}
+    footer::before{left:-95px;}
+
+}
+@media only screen and (max-width:1600px){
+    :root{--main-title: 60px;--sub-title: 40px;--sub-txt: 22px;--body: 19px;--body-sub:17px;--smallestTxt: 12px;--secGap:100px;--slickBtnWid: 90px;--slickBtnHigt: 75px;}
+    .headLogo img{max-width:175px;}
+    .teamInfoImg{min-width:220px;}
+    .chatBtn{padding:1em;max-width:60px;height:60px;bottom: 40px;right: 40px;}
+
+}
+@media only screen and (max-width:1500px){
+    .headNav > nav > ul{margin-right:0.7544em;}
+    .slick-slider button.slick-prev,.slick-slider button.slick-next{top: calc(100% + calc(var(--slickBtnWid) / 2) + 20px);}
+    .productContSlider{margin-bottom: var(--slickBtnHigt);}
+    .slick-slider button.slick-prev{right: calc(50% + calc(var(--slickBtnWid) / 6));}
+    .slick-slider button.slick-next{left: calc(50% + calc(var(--slickBtnWid) / 6));}
+    .newsPrtSec{gap:3em;}
+    footer::before{left:-15%;}
+    .psCareerWbtl{padding-bottom: calc(var(--secGap) + var(--slickBtnHigt));}
+    .hmBannerTxt{max-width:95%;}
+
+}
+@media only screen and (max-width:1440px){
+    .headNav > nav > ul > li{padding-right: 3em;}
+    .hasSub-menu::after{right:1.5em;}
+
+}
+@media (max-width:1400px){
+    .productPartImg {max-width: 767px;}
+    .carSkeletonBox{width: 74%;}
+    .btnBox > a > .partBullet{width: 20px; height: 20px;}
+    .carPartBox, .carPartBox::after{width: 120px; height: 120px;}
+    .carPartBox img{width: 80px;}
+    .btnRow2{width: 77%;}
+    .btnRow3{width: 85%;}
+    .btnRow4{width: 89%;}
+    /* left side */
+    .adasPart {top: -110px; left: 80px;}
+    .brakeMod{left: 130px;}
+    .escPart {top: -69px; left: 110px;}
+    .lwpPart {bottom: -140px; left: 70px;}
+    /* right side */
+    .wcbsPart {top: -110px; right: 80px;}
+    .caliperPart{right: 80px;}
+    .epbPart {top: -69px; right: 80px;}
+
+    .crPart11Btn .partArrow{width:220px;left:5px;top:5px;}
+    .crPart22Btn .partArrow{width:145px;right: 5px;top:5px;}
+    .crPart33Btn .partArrow{width:345px;left: 5px;top: 10px;}
+    .crPart44Btn .partArrow{width:200px;right: 5px;top: 10px;}
+    .crPart55Btn .partArrow{width: 365px;left: 5px;top: 5px;}
+    .crPart66Btn .partArrow{width: 245px;right: 5px;top: 5px;}
+    .crPart77Btn .partArrow{width: 270px;left: 5px;top: 10px;}
+    .crPart88Btn .partArrow{width: 280px;right: 5px;top: 10px;}
+}
+@media only screen and (max-width:1366px){
+    :root{--main-title: 55px;--sub-title: 35px;--sub-txt: 22px;--body: 18px;--body-sub:16px;--smallestTxt: 12px;--secGap:100px;--slickBtnWid: 80px;--slickBtnHigt: 65px;}
+    footer::before{left:-25%;}
+    footer .wrapper1080{max-width:80%;}
+    .productDetailsCont{gap:2.625em;}
+    .psCarImg{max-width:375px;}
+    .psAboutInfo{gap: 2em;}
+    .psVisionTxt{max-width:75%;}
+    .subPgCommBanner > img.absolute{width:60%;height: 200%;}
+    .hmBannerSec{margin-top: var(--headerHeight);}
+}
+@media only screen and (max-width:1280px){}
+@media only screen and (max-width:1200px){
+    footer::before{left:-33%;}
+    .productPortfolioCont {margin-bottom: 2.75em;}
+}
+@media only screen and (max-width:1160px){}
+@media only screen and (max-width:1100px){
+    :root{--headerHeight: 111.14px;}
+    footer::before{left:-40%;}
+    .headRight img{max-width:35px;}
+    .hambergerMenu,.HamClose{display:block;max-width:40px;float:right;clear:both;}
+    .headNav > nav{position: fixed;top: 0;right: -9999px;background-color: var(--White);z-index: 9999;width: 100%;max-width: 400px;min-height: 100vh;padding: 3em 2em;padding-top: 2em; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;transition: all 0.5s;}
+    .headNav > nav.active{right: 0;}
+    .headNav > nav > ul{flex-direction: column;align-items: flex-start;margin-top: 5em;}
+    .headNav > nav > ul > li{margin-bottom: 1.5em;width: 100%;}
+    .sub-menu{display:none;position:relative;background-color:var(--White);box-shadow:none;width:100%;padding:0.5em 0 0.5em 1em;}
+    .hasSub-menu.open .sub-menu{display:block;}
+    .hasSub-menu > a{position:relative;padding-right:30px;}
+    .hasSub-menu::after{top:10px;}
+    .hmBannerTabCont button{padding: 0.5em 0.7em;}
+    .teamInfoImg{min-width:160px;}
+    .teamInfoCont{gap:1.5em;}
+    .headNav > nav > ul > li.open::after{transform:rotate(180deg);}
+
+    .productPartImg {max-width: 55%;}
+    .carPartsVisual > ul{padding-left: 7px;}
+    .carSkeletonBox{width: 70%;}
+    .btnRow1{width: 62%;}
+    .btnRow2{width: 79%;}
+    .btnRow3{width: 87%;}
+    .btnRow4{width: 89%;}
+    .btnBox > a > .partBullet{width: 15px; height: 15px;}
+    .partNameRgt, .partNameLft{font-size: 12px;}
+    .carPartBox, .carPartBox::after{width: 80px; height: 80px;}
+    .carPartBox img{width: 60px;}
+    /* left side */
+    .adasPart {top: -80px; left: 60px;}
+    .brakeMod{top: -80px; left: 90px;}
+    .escPart {top: -40px; left: 90px;}
+    .lwpPart {bottom: -90px; left: 50px;}
+    /* right side */
+    .wcbsPart {top: -80px; right: 60px;}
+    .caliperPart{top: -80px; right: 70px;}
+    .epbPart {top: -40px; right: 70px;} 
+
+    .crPart11Btn .partArrow{width:170px;left:5px;top:5px;}
+    .crPart22Btn .partArrow{width:110px;right: 5px;top:5px;}
+    .crPart33Btn .partArrow{width:255px;left: 5px;top: 10px;}
+    .crPart44Btn .partArrow{width:160px;right: 5px;top: 10px;}
+    .crPart55Btn .partArrow{width:265px;left:18px;top:-3px;transform:rotate(-5deg);}
+    .crPart66Btn .partArrow{width:185px;right:20px;top:0px;transform:rotate(5deg);}
+    .crPart77Btn .partArrow{width:180px;left:5px;top:-3px;transform:rotate(-7deg);}
+    .crPart88Btn .partArrow{width: 185px;right: 5px;top: 10px;}
+
+    .crPart1.carPartsImg{max-width: 60px;}
+    .crPart2.carPartsImg{max-width: 50px;}
+    .crPart3.carPartsImg{max-width:70px;bottom:27%;left:54%;}
+    .crPart4.carPartsImg{max-width: 60px;}
+    .crPart6.carPartsImg{max-width: 70px;}
+    .crPart7.carPartsImg{max-width: 60px;}
+    .crPart8.carPartsImg{max-width: 50px;}
+}
+@media only screen and (max-width:1024px){
+    :root{--main-title: 45px;--sub-title: 30px;--sub-txt: 20px;--body: 18px;--body-sub:16px;--smallestTxt: 12px;--secGap:80px;--slickBtnWid: 70px;--slickBtnHigt: 55px;}
+    .sprecificationStripCont > li:not(:last-child)::after{right:-20%;}
+    .commArrBtn > a > span:last-child,.footContBtn > a > span:last-child{min-width:60px;min-height:60px;}
+    .hmBannerImg img,.hmBannerImg video{aspect-ratio: 1.5/1;}
+    .hmBannerSec .slick-slider button.slick-prev{top: calc(50%  - calc(var(--slickBtnWid) / 2));}
+    .hmBannerSec .slick-slider button.slick-next{top: calc(50% + calc(var(--slickBtnWid) / 2));}
+    .productContSlide{padding: 1em;}
+    .psCarsContent,.psCarsContent:nth-of-type(even),.psAboutInfo{flex-direction: column;align-items: center;}
+    .psCarImg{margin-top: 1em;}
+    .psCarsTxt > p:not(:last-child).psCarsTxt > p:not(:last-child),.psAboutDesk > p:not(:last-child){margin-bottom:1em;}
+    .psCarsContent:not(:last-of-type){margin-bottom: var(--secGap);}
+    .psCareerInfo{padding: 0;}
+    .psAboutImg2{top: 60%;}
+    .psAboutImg{margin-bottom:10em;}
+    .hmBannerTitle + .commArrBtn{margin-left:1em;}
+    .posHeading > ul{gap: 1em;}
+    .psVisionTxt{margin-top:-12em;}
+    .psVisionTxt{max-width:80%;}
+    .psVisionTxt{padding-inline: 0;padding-top: 0;}
+    .psVisionInfo > img,.psVisionTxt{max-width: 100%;margin-top: 0;}
+    .psVisionInfo{display:flex;flex-direction:column-reverse;}
+    .psOurVisionMission .psVisionTxt{margin-top: 0;}
+
+}
+@media only screen and (max-width:991px){
+    .contactSec > *{display: flex;align-items: center;justify-content: center;}
+    .contactSecCont{flex-direction:column;max-width:600px;}
+    .contactSecCont > *{width: 100%;}
+    .contactContFrm .commSolidBtn{display: flex;justify-content: center;}
+    .tab-content .productContSlide{width: 50%;}
+    .productDetailsCont{flex-direction: column;align-items: center;}
+    .hmBanner > div.d-flex{flex-direction: column;align-items: flex-start;}
+    .hmBannerTitle + .commArrBtn{margin-left: 0;}
+    .productPartImg {max-width: 52%;}
+    .carPartsVisual > ul{gap: 2em;}
+}
+@media only screen and (max-width:950px){
+    .sprecificationStripCont > li{width: 33.333%;}
+    .sprecificationStripCont > li:last-child{margin-top: 1.5em;}
+    .sprecificationStripCont > li:not(:last-child)::after{right:6%;}
+    .headRight{padding-inline:1.25em;}
+    .productPartImg {max-width: 45%;}
+    .btnBox > a > .partBullet { width: 10px; height: 10px;}
+    .carPartsVisual > ul {gap: 1.7em; padding-left: 3px;}
+    .carPartBox, .carPartBox::after {width: 65px; height: 65px;}
+    .carPartBox img {width: 40px;}
+    /* left side */
+    .adasPart {top: -50px;left: 45px;}
+    .brakeMod {top: -58px;left: 88px;}
+    .escPart {top: -40px;left: 75px;}
+    .lwpPart {bottom: -80px; left: 36px;}
+    .wcbsPart{top: -50px; right: 50px;}
+    .caliperPart{top: -58px; right: 48px;}
+    .epbPart {top: -40px; right: 50px;} 
+    .carPartsImg{width: 15%;}
+
+        .crPart11Btn .partArrow{width:115px;left:5px;top:5px;}
+    .crPart22Btn .partArrow{width: 75px;right: 5px;top:5px;}
+    .crPart33Btn .partArrow{width: 170px;left: 5px;top: 5px;}
+    .crPart44Btn .partArrow{width:110px;right: 5px;top: 5px;}
+    .crPart55Btn .partArrow{width: 175px;left:10px;top:-3px;transform:rotate(-5deg);}
+    .crPart66Btn .partArrow{width:125px;right:10px;top:0px;transform:rotate(5deg);}
+    .crPart77Btn .partArrow{width:120px;left:5px;top:5px;transform:rotate(0deg);}
+    .crPart88Btn .partArrow{width: 135px;right: 5px;top: 10px;}
+
+}
+@media only screen and (max-width:821px){
+        footer::before{left:-40%;width: 60%;}
+
+}
+@media only screen and (max-width:820px){}
+@media only screen and (max-width:800px){
+    footer::before{display: none;}
+    .footSocial{justify-content: center;}
+    .footCopy{text-align: center;margin-top: 1em;}
+}
+@media only screen and (max-width:768px){
+    :root{--main-title: 40px;--sub-title: 30px;--sub-txt: 18px;--body: 17px;--body-sub:15px;--smallestTxt: 12px;--secGap:50px;--slickBtnWid: 60px;--slickBtnHigt: 45px;}
+    .sprecificationStripCont > li{width: 50%;}
+    .sprecificationStripCont > li:nth-child(3):after{display: block;}
+    .sprecificationStripCont > li:nth-child(2):after{display: none;}
+    .sprecificationStripCont > li:last-child,.sprecificationStripCont > li:nth-last-child(2){margin-top: 1.5em;}
+    .newsPrtSec{flex-direction:column-reverse;justify-content:center;align-items:center;}
+    .newsPrtSecLft{width:100%;}
+    .hmBannerImg img,.hmBannerImg video{border-bottom-left-radius:40px;border-bottom-right-radius:40px;}
+    .psCareerSlideBox .slick-slide{margin: 0;}
+    .joinUsTags ul{gap: 1em;}
+    .btnRow2 {width: 80%;}
+    .btnRow3 {width: 88%;}
+    .btnRow4{width: 90%;}
+    .subPgCommBanner{padding-top: calc(var(--secGap) * 3);}
+}
+@media (max-width: 700px){
+    .productPartImg {max-width: 310px;}
+    .carPartsVisual > ul{gap: 1.4em;}
+    .btnBox > a > .partBullet {width: 8px;height: 8px;}
+    .partNameRgt, .partNameLft {font-size: 10px;}
+
+    .btnRow1 {width: 190px;}
+    .btnRow2 {width: 237px;}
+    .btnRow3 {width: 264px;}
+    .btnRow4 {width: 274px;}
+
+    .carPartBox, .carPartBox::after {width: 58px;height: 58px;}
+    .carPartBox img {width: 35px;}
+
+    .brakeMod {top: -58px;left: 58px;}
+    .escPart {top: -40px;left: 60px;}
+}
+@media only screen and (max-width:610px){
+    :root{--main-title: 30px;--sub-title: 24px;--sub-txt: 17px;--body: 14px;--body-sub:13px;--smallestTxt: 11px;--secGap:50px;--slickBtnWid: 60px;--slickBtnHigt: 45px;}
+    .hmBannerTitle.comm_Banner_title h2{line-height: 1.3;}
+    .hmBannerImg img,.hmBannerImg video{aspect-ratio: 1/1.8;}
+    .headLogo img{max-width:130px;}
+    .hambergerMenu{max-width:45px;}
+    .headTop > div{padding-inline: 1em;}
+    .contactSecCont > *{padding:2em 1.5em;}
+    .contactLocation iframe{aspect-ratio: 1.8/1;}
+    .contactInfo{gap:0.5em;padding:0.5em;}
+    .productDetailSliderSec{max-width:85%;}
+    .teamInfoImg{max-width:160px;}
+    .teamInfoCont{flex-direction: column;align-items: center;}
+    .teamInfoTxt{text-align:center;}
+    .psCarsContent:not(:last-of-type){margin-bottom: calc(var(--secGap) / 2);}
+    .joinFilter > *,.joinFilterField > label + div > select{width: 100%;}
+    .joinFilterField > label + div{padding: 0.5em;}
+    .joinUsFrmSec,.JoinUsInfoTabContCard{padding: 2em 1.5em;}
+    .hmSecndSec1{top:calc(var(--secGap) + -50px);left:0%;}
+    .hmSecndSec2{bottom:calc(var(--secGap) + 100px);left:0%;}
+    .hmSecndSec3{top: calc(var(--secGap) + 60px);right:0%;}
+    .hmSecndSec4{right: 0;bottom: calc(var(--secGap) - 30px);}
+    .sprecificationStripCont > li:not(:last-child)::after{display: none;}
+    .sprecificationSecCont{max-width: 50%;margin: auto;}
+    .sprecificationStripCont > li:not(:last-child){margin-bottom: 2em;}
+    .sprecificationStripCont > li:last-child, .sprecificationStripCont > li:nth-last-child(2){margin-top: 0;}
+    .sprecificationImg{max-width: 40px;margin-right: 0.7em;}
+    footer .wrapper1080{max-width: 90%;}
+    .commArrBtn > a > span:last-child,.footContBtn > a > span:last-child{min-width:40px;min-height:40px;}
+    .commArrBtn > a > span:last-child svg,.footContBtn > a > span:last-child svg{width: 15px;}
+    .footTop{flex-direction:column;gap:2em;}
+    footer{padding-block: var(--secGap);}
+    .footLinks ul{display: flex;flex-flow: row wrap;gap: 1em;}
+    .footLinks > ul > li > a{line-height: 1;text-align: center;}
+    .footLinks ul > li{width: calc(50% - 1em);text-align: center;}
+    .footSocial ul{margin-left:2em;}
+    .footSocial ul > li img{max-width: 25px;}
+    .postInfoHead{flex-direction:column;align-items:flex-start;gap:1em;}
+    .repoInfo{padding-left:1.5em;margin-top:1.25em;}
+    .postDetailBox{padding:1.5em 0;}
+    .psAboutImg1{padding-right:2em;}
+    .psAboutImg2{padding-left:2em;}
+    .psAboutDesk > ul{padding-left:2.5em;}
+    .psAboutDesk > p,.psVisionTxt > p{line-height: 1.7;}
+    .chatBtn{padding:0.8em;max-width:50px;height:50px;bottom: 30px;right: 30px;}
+    .teamInfoTxtDesc > *{text-align: justify;}
+    .subPgCommBanner > img.absolute{width:100%;right: -40%;}
+
+}
+@media only screen and (max-width:550px){
+    .sprecificationStripCont > li{width: 100%;}
+}
+@media (max-width:500px){
+    .productPartImg {max-width: 250px;}
+    .carPartsVisual > ul {gap: 1em;}
+    .btnRow1 {width: 160px;}
+    .btnRow2 {width: 195px;}
+    .btnRow3 {width: 215px;}
+    .btnRow4 {width: 215px;}
+    /* left side */
+    .adasPart {top: -39px;left: 33px;}
+    .brakeMod {top: -45px;left: 40px;}
+    .escPart {top: -20px;left: 60px;}
+    .lwpPart {bottom: -50px;left: 25px;}
+    .wcbsPart {top: -39px;right: 40px;}
+    .caliperPart {top: -40px;right: 40px;}
+    .epbPart {top: -20px;right: 40px;}
+    .carPartBox, .carPartBox::after {width: 41px;height: 40px;}
+    .carPartBox img {width: 25px;}
+    .carPartsImg {width: 10%;}
+    .partNameRgt,.partNameLft{font-size:1.5vw;}
+}
+
+@media only screen and (max-width:460px){}
+@media only screen and (max-width:430px){
+    .tab-content .productContSlide{width: 100%;}
+    .sprecificationSecCont{max-width:60%;}
+
+}
+@media only screen and (max-width:360px){}
+@media only screen and (max-width:350px){
+    .contactContFrm ul.d-flex li.col-50{width: 100%;}
+    .headTop svg{max-width: 15px;height: auto;}
+}
+@media only screen and (max-width:330px){}
