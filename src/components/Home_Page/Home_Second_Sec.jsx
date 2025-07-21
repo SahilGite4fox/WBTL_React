@@ -1,6 +1,7 @@
 import React from 'react';
 import CommonTitle from '../common/CommonTitle';
 import { hmSecSecData } from '../../Data_Content/homeData'; // JSON with all data
+import { Link } from 'react-router-dom';
 
 const Home_Second_Sec = () => {
   const { title, description, btnLabel, btnLink, images } = hmSecSecData[0]; // Get first object
@@ -16,7 +17,7 @@ const Home_Second_Sec = () => {
             <p>{description}</p>
           </div>
           <div className="hmSecndSecContBtn commArrBtn red col-100 floatLft clr relative">
-            <a href="/about" className="d-flex algnItmCent justContCent">
+            <Link to="/about" className="d-flex algnItmCent justContCent">
               <span>{btnLabel}</span>
               <span>
                 <svg
@@ -35,7 +36,7 @@ const Home_Second_Sec = () => {
                   />
                 </svg>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
